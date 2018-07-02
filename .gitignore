@@ -1,0 +1,14 @@
+*.class
+*.iml
+.idea
+.project
+.metadata
+.settings
+.springBeans
+.classpath
+target
+_ApplicationFiles
+*.iml
+tomcat
+*.swp
+**/rebel.xml
