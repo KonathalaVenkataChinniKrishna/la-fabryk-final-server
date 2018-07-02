@@ -53,7 +53,7 @@ public class DashboardDaoImpl implements DashboardDao<Dashboard> {
 //        });
         String fileAsString = "";
         try {
-            InputStream is = new FileInputStream("D:\\Development\\git\\la-fabryk-server\\src\\main\\resources\\all_data.json");
+            InputStream is = new FileInputStream("D:\\Development\\git\\la-fabryk-final-server\\src\\main\\resources\\all_data.json");
             BufferedReader buf = new BufferedReader(new InputStreamReader(is));
             String line = buf.readLine();
             StringBuilder sb = new StringBuilder();
@@ -74,7 +74,7 @@ public class DashboardDaoImpl implements DashboardDao<Dashboard> {
     public String loadTalkCounts() {
         String fileAsString = "";
         try {
-            InputStream is = new FileInputStream("D:\\Development\\git\\la-fabryk-server\\src\\main\\resources\\high_talk_young_entrepreneurs.json");
+            InputStream is = new FileInputStream("D:\\Development\\git\\la-fabryk-final-server\\src\\main\\resources\\high_talk_young_entrepreneurs.json");
             BufferedReader buf = new BufferedReader(new InputStreamReader(is));
             String line = buf.readLine();
             StringBuilder sb = new StringBuilder();
@@ -95,7 +95,7 @@ public class DashboardDaoImpl implements DashboardDao<Dashboard> {
     public String loadContextCounts() {
         String fileAsString = "";
         try {
-            InputStream is = new FileInputStream("D:\\Development\\git\\la-fabryk-server\\src\\main\\resources\\high_context_young_entrepreneurs.json");
+            InputStream is = new FileInputStream("D:\\Development\\git\\la-fabryk-final-server\\src\\main\\resources\\high_talked_words.json");
             BufferedReader buf = new BufferedReader(new InputStreamReader(is));
             String line = buf.readLine();
             StringBuilder sb = new StringBuilder();
@@ -116,7 +116,7 @@ public class DashboardDaoImpl implements DashboardDao<Dashboard> {
     public String loadInteractionCounts() {
         String fileAsString = "";
         try {
-            InputStream is = new FileInputStream("D:\\Development\\git\\la-fabryk-server\\src\\main\\resources\\interaction_between_entrepreneurs.json");
+            InputStream is = new FileInputStream("D:\\Development\\git\\la-fabryk-final-server\\src\\main\\resources\\interaction_between_entrepreneurs.json");
             BufferedReader buf = new BufferedReader(new InputStreamReader(is));
             String line = buf.readLine();
             StringBuilder sb = new StringBuilder();
@@ -175,7 +175,7 @@ public class DashboardDaoImpl implements DashboardDao<Dashboard> {
     public String loadInteractionCountsDendo() {
         String fileAsString = "";
         try {
-            InputStream is = new FileInputStream("D:\\Development\\git\\la-fabryk-server\\src\\main\\resources\\interaction_between_entrepreneurs.json");
+            InputStream is = new FileInputStream("D:\\Development\\git\\la-fabryk-final-server\\src\\main\\resources\\interaction_between_entrepreneurs.json");
             BufferedReader buf = new BufferedReader(new InputStreamReader(is));
             String line = buf.readLine();
             StringBuilder sb = new StringBuilder();
